@@ -1,7 +1,7 @@
 import './ExpenseItem.css';
 // This simply tells the build process that the CSS file should be considered.
 import ExpenseDate from './ExpenseDate.js';
-import Card from './Card.js';
+import Card from '../UI/Card.js';
 
 function ExpenseItem(props) {
     return (
