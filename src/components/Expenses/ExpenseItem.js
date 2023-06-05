@@ -3,10 +3,6 @@ import ExpenseDate from './ExpenseDate.js';
 import Card from '../UI/Card.js';
 
 const ExpenseItem = (props) => {
-    if (props.year !== props.date.getFullYear().toString()) {
-        return;
-    }
-
     return (
         <Card className="expense-item">
             <ExpenseDate date={props.date} />
